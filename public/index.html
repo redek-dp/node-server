@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>FileDisd | Transfire Arquivos</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description"
+		content="Transfire Arquivos ponto a ponto facilmente, sem conta ou servidor, conexão ponto a ponto sem servidor" />
+	<meta property="og:title" content="FileDisd" />
+	<meta property="og:locale" content="pt-br" />
+	<meta property="og:site_name" content="FileDisd" />
+	<meta name="mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="application-name" content="FileDisd" />
+	<meta name="apple-mobile-web-app-title" content="FileDisd" />
+	<meta name="theme-color" content="#574e8b" />
+	<meta name="msapplication-navbutton-color" content="#574e8b" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta content="./d-framework/icon/icon/512/favicon.png" property="og:image" />
+	<meta content="./d-framework/icon/icon/512/favicon.png" name="twitter:image" />
+	<link rel="icon" type="image/png" sizes="512x512" href="./d-framework/icon/512/favicon.png" />
+	<link rel="apple-touch-icon" type="image/png" sizes="512x512" href="./d-framework/icon/512/favicon.png" />
+	<link rel="icon" type="image/png" sizes="192x192" href="./d-framework/icon/192/favicon.png" />
+	<link rel="apple-touch-icon" type="image/png" sizes="192x192" href="./d-framework/icon/192/favicon.png" />
+	<link rel="icon" type="image/png" sizes="144x144" href="./d-framework/icon/144/favicon.png" />
+	<link rel="apple-touch-icon" type="image/png" sizes="144x144" href="./d-framework/icon/144/favicon.png" />
+	<link rel="icon" type="image/png" sizes="96x96" href="./d-framework/icon/96/favicon.png" />
+	<link rel="apple-touch-icon" type="image/png" sizes="96x96" href="./d-framework/icon/96/favicon.png" />
+	<link rel="icon" type="image/png" sizes="72x72" href="./d-framework/icon/72/favicon.png" />
+	<link rel="apple-touch-icon" type="image/png" sizes="72x72" href="./d-framework/icon/72/favicon.png" />
+	<link rel="icon" type="image/png" sizes="48x48" href="./d-framework/icon/48/favicon.png" />
+	<link rel="apple-touch-icon" type="image/png" sizes="48x48" href="./d-framework/icon/48/favicon.png" />
+	<link rel="icon" type="image/png" sizes="36x36" href="./d-framework/icon/36/favicon.png" />
+	<link rel="apple-touch-icon" type="image/png" sizes="36x36" href="./d-framework/icon/36/favicon.png" />
+	<script src="./d-framework/js/pace.min.js"></script>
+	<script src="./d-framework/js/webtorrent.min.js"></script>
+	<script type="module" src="./d-framework/js/index.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="./d-framework/css/styles.css" />
+	<script src="https://redek-dp.github.io/servdevanalytics/server.id.js"></script>
+	<link rel="manifest" href="manifest.json" />
+
+</head>
+
+<body>
+	<!--header-->
+	<div class="tebouheader">
+
+		<button class="btmenus btmenush" onclick="abrirModal('vis-modal')"><svg xmlns="http://www.w3.org/2000/svg"
+				width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+				<path fill-rule="evenodd"
+					d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+			</svg>
+		</button>
+
+		<h1 class="titulo">FileDisd</h1>
+	</div>
+	<div style="padding-top: 60px;"></div>
+
+
+	<!--menul-->
+	<div id="vis-modal" class="modal">
+		<div class="conteudo-modal">
+			<div class="cabecalho-modal">
+				<h1 class="cabecalho-titulo-modal">Sobre </h1>
+
+				<span class="cabecalho-modal-fechar bt-hover" onclick="fecharModal('vis-modal')">✖️</span>
+			</div>
+
+			<div class="corpo-modal">
+				<p>❝ Aplicativos para várias plataformas by Developer Davidsonbpe.❞ <br>
+					<hr>
+				</p>
+
+				<button
+					onclick="javascript:window.open('https://github.com/davidsonbpe', 'GitHub', 'width=800,height=550')"
+					class="bt-listas bt-hover">
+					<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+						class="bi bi-justify-left" viewBox="0 0 16 16">
+						<path fill-rule="evenodd"
+							d="M2 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+					</svg> <span style="padding: 7px 8px;">GitHub</span>
+				</button>
+
+				<button
+					onclick="javascript:window.open('https://codepen.io/davidsonbpe', 'codepen', 'width=800,height=550')"
+					class="bt-listas bt-hover">
+					<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+						class="bi bi-justify-left" viewBox="0 0 16 16">
+						<path fill-rule="evenodd"
+							d="M2 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+					</svg> <span style="padding: 7px 8px;">CodePen</span>
+				</button>
+
+				<button
+					onclick="javascript:window.open('https://davidsonbpe.blogspot.com/', 'davidsonbpe', 'width=800,height=550')"
+					class="bt-listas bt-hover">
+					<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+						class="bi bi-justify-left" viewBox="0 0 16 16">
+						<path fill-rule="evenodd"
+							d="M2 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+					</svg> <span style="padding: 7px 8px;">Developer</span>
+				</button>
+
+				<button id="shareButton" onclick="share(this)" class="bt-listas bt-hover">
+					<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+						class="bi bi-justify-left" viewBox="0 0 16 16">
+						<path fill-rule="evenodd"
+							d="M2 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+					</svg> <span style="padding: 7px 8px;">Compartilhar</span>
+				</button>
+
+			</div>
+
+			<div class="rodape-modal">
+
+				<button class="btn-outline-success bt-hover" onclick="fecharModal('vis-modal')">Sair</button>
+			</div>
+
+		</div>
+	</div>
+
+
+	<div id="main-container">
+		<div class="content">
+			<!--<h1>Transfira arquivos de um Ponto para outro facilmente!</h1>-->
+			<div class="form">
+				<div class="upload">
+					<h3>Carregue seu arquivo</h3>
+
+					<input type="file" name="upload" id="upload" multiple="multiple">
+					<button class="upload-action">+</button>
+
+					<p class="text">Compartilhe seu arquivo</p>
+					<input class="magnet-show" type="text">
+					<input type="text" class="magnet-link">
+					<button class="cp hide">Copiar magnet</button>
+					<button class="share hide">Copiar link de compartilhamento</button>
+				</div>
+				<div class="download">
+					<h3>Download em magnet</h3>
+					<input type="text" id="download" placeholder="magnet id">
+					<button>Obter arquivos</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="main-modal" class="modal-wrapper hidden">
+		<div>
+			<h3 class="title">Carregando, por favor espere <div class="loader"></div>
+			</h3>
+			<div id="download-links" class="modal-content">
+				<p>Progresso <span id="progress">0</span>%</p>
+				<p><i>isso pode levar alguns minutos</i></p>
+			</div>
+			<div class="actions hidden">
+				<button id="dw-all">Download</button>
+				<button id="close">Descartar</button>
+			</div>
+		</div>
+	</div>
+	<div class="away" id="info-wrapper">
+
+		<p style="margin: 10px;">Pareado: <span id="peer-count">0</span></p>
+		<div class="container text-center">
+			<div class="row">
+				<div class="col">
+					<p style="margin: 10px;">DOWNLOAD</p>
+				</div>
+
+				<div class="col">
+					<p style="margin: 10px;"> UPLOAD</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col"><span id="download-speed" style="margin: 10px;">0</span>
+					<p style="margin: 10px;">Mbps</p>
+				</div>
+
+				<div class="col"><span id="upload-speed" style="margin: 10px;">0</span>
+					<p style="margin: 10px;">Mbps</p>
+				</div>
+			</div>
+		</div>
+
+		<!--<div class="peers">
+			<p>Pareado: <span id="peer-count">0</span></p>
+		</div>
+		<div class="upload-speed">
+			<p>Velocidade de upload: <span id="upload-speed">0</span>Mb/s</p>
+		</div>
+		<div class="download-speed">
+			<p>Velocidade de Download: <span id="download-speed">0</span>Mb/s</p>
+		</div>-->
+	</div>
+	<script>
+
+		/*modal*/
+		function abrirModal(carregarModal) {
+			let modal = document.getElementById(carregarModal);
+			modal.style.display = "block";
+			document.body.style.overflow = "hidden";
+		}
+		function fecharModal(fecharModal) {
+			let modal = document.getElementById(fecharModal);
+			modal.style.display = "none";
+			document.body.style.overflow = "auto";
+		}
+
+		function share(button) {
+			if (navigator.share) {
+				var url = document.location.href;
+				var title = document.getElementsByTagName("title")[0].innerHTML;
+				var description = document
+					.querySelector("meta[name=description]")
+					.getAttribute("content");
+
+				navigator.share({
+					title: title,
+					text: description,
+					url: url
+				});
+			} else {
+				if (!clickedOnShare) {
+					clickedOnShare = true;
+					showLoading(button);
+				}
+			}
+		}
+
+	</script>
+	<script src="./d-framework/js/register-sw.js"></script>
+</body>
+
+</html>
